@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* khung */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.backgroud{
+	width: auto;
+	height:auto;
+	margin:  0 auto;
+	background-image: url("back.jpg");
+	
+}
+.outer{
+	width: 1500px;
+	height: 2000px;
+	margin: 0 auto;
+	background-color: rgba(142,142,142,0.50);
+}
+
+	/* decor header*/
+.header{
+	width: 100%;
+	height: 219.5px;
+}
+.menu{
+	color: aliceblue;
+	font-family:  AL Nevrada Personal Use Only;
+}
+.menu ul{
+	float: left;
+	background-color: rgba(148,13,16,0.80);
+	list-style-type:  none;
+	text-decoration: none;
+}
+.menu li{
+	font-size: 20px;
+	width: 179.5px;
+	height: 60px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+}
+.menu a{
+	text-decoration: none;
+  	color: #fff;
+  	display: block;
+}
+.menu a:hover{
+	background-color: rgba(0,0,0,0.70)
+}
+.menu2{ 
+color: aliceblue;
+font-family:  AL Nevrada Personal Use Only;
+}
+
+.menu2 ul{
+	float: left;
+	background-color: rgba(0,0,0,0.70);
+	text-decoration: none;
+}
+.menu2 li{
+	text-decoration: none;
+	font-size: 28px;
+	width: 424.1px;
+	height: 159px;
+	display: inline-block;
+	text-align: center;
+	line-height: 160px
+}
+.menu2 a{
+	text-decoration: none;
+  	color: #fff;
+  	display: block;
+}
+.menu2 a:hover{
+	background-color: rgba(148,13,16,0.80);
+}
+.logo{
+	height: 100%;
+	float: left;
+}
+
+
+	/* decor main*/
+.main{
+	width: 100%;
+	height: 1500px;
+}
+.box1{
+	width: 1500px;
+	height: 1000px;
+	background-image: url("pha-cafe-capuchino.jpg");
+	margin-top: 10px;
+}
+
+.minibox1{
+	width: 940px;
+	height: 90px;
+	background-color: rgba(148,13,16,0.80);
+	margin-left: 55px;
+	text-align: center;
+	position: relative;
+    top: 370px;
+}
+.minibox1 span{
+	font-size: 60px;
+	line-height: 120px;
+	font-family: AL Nevrada Personal Use Only;
+
+}
+
+.minibox2{
+	width: 730px;
+	height: 50px;
+	background-color: rgba(10,10,10,0.88);
+	margin-left: 60px;
+	text-align: center;
+	position: relative;
+    top: 370px;
+}
+.minibox2 span{
+	font-size: 40px;
+	line-height: 50px;
+	font-family: Exo 2;
+}
+
+.bigbox{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+}
+.box2{
+	width:  25%;
+	height: 475px;
+	background-color: rgba(0,0,0,0.70);
+	float: left;
+}
+.box3{
+	width:  25%;
+	height: 475px;
+	background-color: rgba(0,0,0,0.70);
+	float: left;
+}
+.box4{
+	width:  25%;
+	height: 475px;
+	background-color: rgba(0,0,0,0.70);
+	float: left;
+}
+.box5{
+	width:  25%;
+	height: 475px;
+	background-color: rgba(0,0,0,0.70);
+	float: left;
+}
+
+	/*decor hinh bigbox*/
+.hinh1{
+	position: relative;
+	top: 9px;
+	left: 13px;
+}
+.hinh2{
+	position: relative;
+	top: 9px;
+	left: 9px;
+}
+.hinh3{
+	position: relative;
+	top: 9px;
+	left: 6px;
+}
+.hinh4{
+	position: relative;
+	top: 9px;
+	left: 6px;
+}
+	/* decor text box*/
+.text1{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.text1 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 28px;
+	color: aliceblue;
+	line-height: 50px;
+	position: relative;
+	top: 10px
+}
+.text1 p{
+	font-family: Exo 2;
+	font-size: 17px;
+	color: aliceblue;
+	text-align: left
+}
+.text2{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.text2 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 28px;
+	color: aliceblue;
+	line-height: 50px;
+	position: relative;
+	top: 10px
+}
+.text2 p{
+	font-family: Exo 2;
+	font-size: 17px;
+	color: aliceblue;
+	text-align: left
+}
+.text3{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.text3 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 28px;
+	color: aliceblue;
+	line-height: 50px;
+	position: relative;
+	top: 10px
+}
+.text3 p{
+	font-family: Exo 2;
+	font-size: 17px;
+	color: aliceblue;
+	text-align: left
+}
+.text4{
+	width: 80%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+}
+.text4 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 25px;
+	color: aliceblue;
+	line-height: 50px;
+	position: relative;
+	top: 10px
+}
+.text4 p{
+	font-family: Exo 2;
+	font-size: 14px;
+	color: aliceblue;
+	text-align: left
+}
+
+
+	/* decor footer*/
+.footer{
+	width: 100%;
+	height: 270px;
+	background-color: rgba(0,0,0,0.60);
+}
+.f1{
+	width: 30%;
+	height: 75%;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	left: 45px;
+	float: left
+}
+.f1 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 25px;
+	color: aliceblue;
+	line-height: 100px;
+}
+.f1 p{
+	font-family: Exo 2;
+	font-size: 19px;
+	color: aliceblue;
+}
+.f2{
+	width: 30%;
+	height: 75%;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	float: left;
+}
+.f2 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 25px;
+	color: aliceblue;
+	line-height: 100px;
+}
+.f2 p{
+	font-family: Exo 2;
+	font-size: 19px;
+	color: aliceblue;
+}
+.f3{
+	width: 30%;
+	height: 75%;
+	text-align: center;
+	position: relative;
+	top: 18px;
+	float: left;
+}
+.f3 span{
+	font-family: AL Nevrada Personal Use Only;
+	font-size: 15px;
+	color: aliceblue;
+	line-height: 100px;
+}
+.f3 p{
+	font-family: Exo 2;
+	font-size: 19px;
+	color: aliceblue;
+}
+.f4{
+	width: 100%;
+	height: 25%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.40);
+	float: left;
+}
+.f4 span{
+	font-family: Exo 2;
+	font-size: 19px;
+	color: aliceblue;
+	line-height: 70px;
+}
